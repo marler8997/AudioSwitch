@@ -1,0 +1,14 @@
+.{
+    .name = .audioswitch,
+    .fingerprint = 0x87430b47136ba13a,
+    .version = "0.0.1",
+    .minimum_zig_version = "0.15.2",
+    .paths = .{ "build.zig", "build.zig.zon", "src" },
+    .dependencies = .{
+        .win32 = .{
+            .url = "git+https://github.com/marlersoft/zigwin32#754ccbac01c4b5914c883971bbcaca93ec75f6c3",
+            .hash = "win32-42.0.39-preview-mX5pFb224gNvktVijZLgi3tug_R6gdeGG1VFnse6T5F5",
+            .lazy = true,
+        },
+    },
+}
